@@ -1,8 +1,11 @@
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family:'Futura', sans-serif;
     font-weight: 400px;
     margin: 0;
     padding: 0;
+    background-color: #000;
+    color: #b8860b;
+    background-image: linear-gradient(135deg, #000 0%, #333 70%, #000 100%);
 }
 
 .container {
@@ -12,9 +15,10 @@ body{
 }
 
 header{
-    background-color: #333;
-    color: #fff;
+    background-color: #000;
+    color: #b8860b;
     padding: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
 }
 .header-content{
     display: flex;
@@ -22,11 +26,10 @@ header{
     align-items: center;
 }
 
-header h1{
+.brand-header{
     margin: 0;
-    font-size: 36px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+    font-family: 'Futura', sans-serif;
+    font-size: 20px;
 }
 
 nav ul{
@@ -38,12 +41,13 @@ nav ul{
 }
 
 nav ul li{
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 nav ul li a{
     text-decoration: none;
-    color: #fff;
+    color: #b88608;
+    font-size: 12px;
 }
 
 nav ul li a:hover {
@@ -51,16 +55,17 @@ nav ul li a:hover {
 }
 
 .hero {
-    background-image: url(https://images.unsplash.com/photo-1609602644879-dd158c2b56b4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80);
+    background-image: url();
+    background-color: #000;
     background-size: cover;
     background-position: center;
     text-align: center;
-    color: #fff;
+    color: #b88608;
     padding: 100px 0;
 }
 
 .products {
-    background-color: #f5f5f5;
+    background-color: #000;
     padding: 50px 0;
 }
 
@@ -75,10 +80,15 @@ nav ul li a:hover {
 .btn{
     display: inline-block;
     padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
+    background-color: #ffd700;
+    color: #000;
     text-decoration: none;
     border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover{
+    background-color: #ffc800;
 }
 
 form{
@@ -96,7 +106,7 @@ form input, form textarea, form button {
 }
 
 footer {
-    background-color: #333;
+    background-color: #000;
     color: #fff;
     text-align: center;
     padding: 10px;
