@@ -6,7 +6,7 @@ const productsData = [
     {
         title: "Zippety Zap",
         price: "$419.99",
-        image: "assets/shoe1.png"
+        image: "assets/shoe4.png"
     },
     {
         title: "Zuppety Zip",
@@ -18,6 +18,11 @@ const productsData = [
         price: "$899.99",
         image: "assets/shoe3.png"
     },
+    {
+        title: "Ma'at Fired",
+        price: "$1999.99",
+        image: "assets/shoe1.png"
+    }
     // Add more products here as needed
 ];
 
